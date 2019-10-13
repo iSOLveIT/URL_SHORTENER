@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %} Error {% endblock title %}
+
+{% block content %}
+    <div class='jumbotron text-center'>
+        <h1 class="text-uppercase" style='font-weight:bolder;'> {{ error }} NOT FOUND. </h1>
+        <a href="/ishort" style="font-size:16pt; color: #0000ff;">Go to homepage</a><br><br><br><br>
+        <p class="text-center m-0" style="color:#000033;">Copyright &copy; {{ year }}  |  All rights reserved to <a href="https://isolveit.herokuapp.com" style="color:#000033; font-weight:bold;">iSOLveIT org.</a> </p>
+
+    </div>
+
+
+{% endblock content %}
