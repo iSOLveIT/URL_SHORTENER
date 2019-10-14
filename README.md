@@ -1,6 +1,6 @@
 # URL SHORTENER
 
-** A website built with flask for cutting long urls **
+**A website built with flask for cutting long urls**
 
 ## Installation
 
@@ -10,8 +10,7 @@ Install all dependencies in requirements.txt file by using command `pip install 
 
 
 ## Author
-***
-- Duodu Randy
-***
+***- Duodu Randy***
+
 # Date Created
-** Monday, 13th October, 2019 **
+**Monday, 13th October, 2019**
