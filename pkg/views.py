@@ -21,7 +21,7 @@ class IndexEndpoint(MethodView):
         req = dbm(url_received, add_on)
         generated_string = req
 
-        url_shortened = 'http://127.0.0.1:5000/' + generated_string
+        url_shortened = 'https://iscissor.herokuapp.com/' + generated_string
         year = dt.now().strftime('%Y')
         return render_template('index.html', url_address=url_shortened, year=year)
 
