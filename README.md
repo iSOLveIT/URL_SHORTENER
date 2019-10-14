@@ -10,7 +10,7 @@ Install all dependencies in requirements.txt file by using command `pip install 
 
 
 ## Author
-***- Duodu Randy***
+***-Duodu Randy***
 
 # Date Created
 **Monday, 13th October, 2019**
