@@ -7,7 +7,7 @@ from datetime import datetime as dt
 app.add_url_rule("/ishort", view_func=IndexEndpoint.as_view("index"))
 
 # Route for Redirect
-app.add_url_rule("/<gen_id>", view_func=iShortEndpoint.as_view("url_redirect"))
+app.add_url_rule("/<string:gen_id>", view_func=iShortEndpoint.as_view("url_redirect"))
 
 # Route for ErrorHandling
 @app.errorhandler(404)
