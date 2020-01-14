@@ -3,7 +3,7 @@ import string
 from pkg import mongo
 from datetime import datetime as dt
 
-def randomStringDigits(stringLength=10):
+def randomStringDigits(stringLength=7):
     """Generate a random string of letters and digits """
     lettersAndDigits = string.ascii_letters + string.digits
     # Generating a Random String including letters and digits"
