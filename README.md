@@ -34,7 +34,7 @@
 [iSHOrteNER](https://iscissor.herokuapp.com/ishort)
 
 ## Author
-* __Duodu Randy__
+* __Duodu Randy :octocat:__
 
 ### Date Created
 * _Monday, 13th October, 2019_
