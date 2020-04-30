@@ -37,5 +37,5 @@
 * __Duodu Randy :octocat:__
 
 ### Date Created
-* _Monday, 13th October, 2019_
+* _Tuesday, 1st October, 2019_
 
