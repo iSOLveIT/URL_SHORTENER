@@ -21,4 +21,3 @@ def dbm(url_received, generated_string):
     query = mongo.db.url_address
     datab = query.insert_one({'url_address':url_received, 'url_generated':generated_string,'visits':0, 'date_created':dt.now()})
     return generated_string
-
