@@ -1,7 +1,7 @@
 from pkg import app
 import os
 
-app.config['SECRET_KEY'] = os.urandom(20)
+app.config['SECRET_KEY'] = 'something_secret'
 
 if __name__ == '__main__':
     app.run()
