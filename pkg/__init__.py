@@ -14,7 +14,7 @@ app.config['MONGO_URI'] = "mongodb+srv://%s:%s@example.mongodb.net/DB_NAME" % (U
 # Name of Database to connect to
 app.config['MONGO_DB'] = "DB_NAME"
 
-# connect to MongoDB with school_DB
+# connect to MongoDB Database
 mongo = PyMongo(app)
 
 from pkg import routes
